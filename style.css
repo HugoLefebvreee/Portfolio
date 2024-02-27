@@ -1,0 +1,25 @@
+body {
+    background: #000;
+    overflow: hidden;
+}
+
+.star {
+    background: #fff;
+    position: absolute;
+    -webkit-animation: blinkAnim 5s infinite;
+    -moz-animation: blinkAnim 5s infinite;
+    -ms-animation: blinkAnim 5s infinite;
+    -o-animation: blinkAnim 5s infinite;
+    animation: blinkAnim 5s infinite;
+}
+
+@keyframes blinkAnim {
+     from { opacity: 1; }
+     50%   { opacity: 0; }
+     to   { opacity: 1; }
+}
+@-webkit-keyframes blinkAnim {
+     from { opacity: 1; }
+     50%   { opacity: 0; }
+     to   { opacity: 1; }
+}
